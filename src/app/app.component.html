@@ -1,23 +1,23 @@
 
-<div class="container">
+<div class="container-fluid">
   <div class="row" class="border">
     <app-header></app-header>
   </div>
 </div>
 
-<div class="container">
+<div class="container-fluid">
   <div class="row">
-    <div class="col-md-3">
+    <div class="col-2 col-md-2">
       <div class="border">
-        Left Side Menu bar
+        <app-lside-bar></app-lside-bar>
       </div>
     </div>
-    <div class="col-md-6">
+    <div class="col-8 col-md-8">
       <div class="border">
         <router-outlet></router-outlet>
       </div>
     </div>
-    <div class="col-md-3">
+    <div class="col-2 col-md-2">
       <div class="border">
         Right side Menu bar
       </div>
@@ -25,7 +25,7 @@
   </div>
 </div>
 
-<div class="container">
+<div class="container-fluid">
   <div class="row" class="border">
     <app-footer></app-footer>
   </div>

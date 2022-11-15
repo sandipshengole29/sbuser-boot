@@ -8,6 +8,7 @@ import { RegistrationComponent } from './modules/component/registration/registra
 import { FooterComponent } from './modules/layout/footer/footer.component';
 import { HeaderComponent } from './modules/layout/header/header.component';
 import { SidebarComponent } from './modules/layout/sidebar/sidebar.component';
+import { LsideBarComponent } from './modules/layout/lside-bar/lside-bar.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SidebarComponent } from './modules/layout/sidebar/sidebar.component';
     RegistrationComponent,
     FooterComponent,
     HeaderComponent,
-    SidebarComponent
+    SidebarComponent,
+    LsideBarComponent
   ],
   imports: [
     BrowserModule,
